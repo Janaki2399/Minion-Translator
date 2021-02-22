@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 body{
     margin:0px;
+   background-color: #FDE68A;
 }
 .header{
     color:black;
     font-size:2rem;
     text-align:center;
     font-style: italic;
+    font-family:Calligraffitti;
     padding:1rem;
-    background-color: yellow;
+    background-color:#FBBF24;
     margin:0px;
 }
 .in-textarea{
@@ -31,17 +34,20 @@ p{
     margin-left:30%;
 }
 #btn-translate{
-    padding:1rem;
-    background-color:yellow;
+    display:inline;
+    padding:0.5rem;
+    background-color:#FBBF24;
     font-size:1rem;
     max-width:80%;
 }
+
 .btn-container{
    text-align:center;
+   
 }
 footer{
     text-align:center;
-    background-color: yellow;
+    background-color:#FBBF24;
     padding:1rem;
     font-style: italic;
 }
